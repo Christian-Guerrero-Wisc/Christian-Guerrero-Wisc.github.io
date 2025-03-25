@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
-<title>Page Title</title>
+<title>Favorite Movie</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="">
+<link rel="stylesheet" href="style.css">
 <style>
 </style>
 <script src=""></script>
@@ -11,10 +11,57 @@
 
 	<!--- Code above this line will not be displayed on the browser --> 
 
-	<body>
+	<body class="home-page">
 
-		<p> Hello world! </p>
-
+		<header class="top-of-favorite-movie">
+			<p> Star Wars: Revenge of the Sith </p>
+	
+			<nav class="nav-bar">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="aboutme.html">About Me</a></li>
+					<li><a href="favoritemovie.html">Favorite Movie</a></li>
+					<li><a href="favoritehobbie.html">Favorite Hobbie</a></li>
+					<li><a href="favoritefood.html">Favorite Food</a></li>
+				</ul>
+			</nav>
+		</header>
+	
+		<main class="main-content-favorite-movie">
+			<div class="image-and-movie-info">
+				<figure class="rotspic-container">
+					<a href="https://www.imdb.com/title/tt0121766/?ref_=mv_close" target="_blank">
+						<img src="rotspic.jpg" class="rotspic" alt="A Picture of Star Wars: Revenge of the Sith promotional poster">
+					</a>
+					<figcaption class="rotspic-caption">
+						Image taken from IMDB website containing information on the movie. Click here to go to the movie's IMDB page!
+					</figcaption>
+				</figure>
+			
+				<div class="movie-info-list">
+					<h2>Movie Information</h2>
+					<ul>
+						<li>Director: George Lucas</li>
+							<li>Writer: George Lucas</li>
+							<li>Release Date: May 19, 2005</li>
+							<li>Starring: Ewan McGregor, Natalie Portman, Hayden Christensen</li> 
+						
+					</ul>
+				</div>
+			</div>
+	
+			<div class="text-next-to-rotspic">
+				<p>
+					From the best of my memory, this is the first movie I remember ever watching.
+					I was five years old and my mom was recommended by her friends to let me watch
+					the movie since they were Sci-Fi fans themselves. Since my first viewing,
+					I have probably watched it over a hundred times. It made me a huge star wars nerds
+					and while I may not watch a lot of Star Wars today besides the original movies,
+					I read a lot of Star Wars graphic novels and comics and have Star Wars themed itmes like
+					blankets and phone cases. 
+				</p>
+			</div>
+		</main>
+	
 	</body>
-
-</html>
+	</html>
